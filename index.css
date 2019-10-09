@@ -1,0 +1,93 @@
+/* ----------------------------------------- shared code ------------------------------------------------ */
+
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header img{
+    width: 100%;
+}
+
+a{
+color:#959bd1;
+text-decoration: none;
+
+}
+
+a:hover{
+    color:#626fdd;
+    text-decoration: underline;
+}
+
+.h1{
+    text-align: center;
+   color: #959bd1;
+}
+
+.color{
+    color: #602E8B;
+}
+
+h1{
+    margin-left: 3rem;
+}
+
+.flexbox{
+    display: flex;
+    margin: 3%;
+}
+
+nav.flexbox {
+   justify-content: space-evenly;
+}
+footer{
+    height: 3rem;
+    background-color: #602e8b;
+    color: white;
+}
+
+
+/* ----------------------------------------- room service page ------------------------------------------------ */
+
+.flex{
+    display: flex;
+}
+
+.form label{
+    display: flex;
+    align-content:space-around; 
+}
+
+#text{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+/* -----------------------------------------specials page ------------------------------------------------ */
+
+.strong{
+    font-weight: 400;
+}
+
+#h1{
+    color: #959bd1;
+}
+
+.margin{
+    margin: 0 3rem;
+}
+
+/* -----------------------------------------Reservations page ------------------------------------------------ */
+.main{
+    margin: auto 3rem;
+    margin-bottom: 3rem;
+}
+
+/* -----------------------------------------Contact page ------------------------------------------------ */
+
+    .h2{ color:#602E8B;
+        margin-left: 4rem;
+    }      
+
+  
+
